@@ -43,6 +43,10 @@ bot.on('message', message => {
         info("Message from pwams! Reply from async!");
         message.react('☝️');
     }
+
+    if (message.author.username === "musicdegreebtw" || message.author.username === "8696David") {
+        message.react('🇱');
+    }
 });
 
 bot.login(auth.token)
