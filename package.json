@@ -1,0 +1,12 @@
+{
+    "name": "the-chat-bot",
+    "version": "1.0.0",
+    "description": "Doesn't suck",
+    "main": "bot.js",
+    "author": "pwamsley",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "discord.js": "^13.8.0",
+        "winston": "^3.7.2"
+    }
+}
